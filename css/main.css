@@ -3,3 +3,36 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: blanchedalmond;
+  height: 100vh;
+}
+
+.container-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.white-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 40vh;
+  background-color: #FFF;
+  border-radius: 2em;
+  padding: 1em;
+}
+
+.yellow {
+  background-color: #F0AD4E;
+  border-color: #CCC;
+  color: #FFF;
+  margin: 1em 0;
+}
+
+p {
+  margin: 0.5em 0;
+}
